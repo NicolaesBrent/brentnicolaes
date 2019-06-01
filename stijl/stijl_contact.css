@@ -1,0 +1,113 @@
+/*Moving header*/
+
+@import url('https://fonts.googleapis.com/css?family=Yatra+One&display=swap');
+
+@-webkit-keyframes ticker {
+  0% {
+    -webkit-transform: translate3d(25%, 0, 0);
+            transform: translate3d(25%, 0, 0);
+  }
+ 100% {
+    -webkit-transform: translate3d(-25%, 0, 0);
+            transform: translate3d(-25%, 0, 0);
+  }
+}
+@keyframes ticker {
+  0% {
+    -webkit-transform: translate3d(25%, 0, 0);
+            transform: translate3d(25%, 0, 0);
+  }
+  100% {
+    -webkit-transform: translate3d(-25%, 0, 0);
+            transform: translate3d(-25%, 0, 0);
+  }
+}
+.movingHeader {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  background-color: #598ed9;
+}
+.movingHeader .group {
+  width: 100vw;
+  display: -webkit- flex;
+  /* Safari */
+    display: flex;
+  /* Safari */
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  overflow: hidden;
+}
+.movingHeader .group .row {
+  width: 400vw;
+  display: -webkit- flex;
+  /* Safari */
+  display: flex;
+  /* Safari */
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+  -webkit-transform: translate3d(25%, 0, 0);
+          transform: translate3d(25%, 0, 0);
+  white-space: nowrap;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-name: ticker;
+          animation-name: ticker;
+  -webkit-animation-duration: 30s;
+          animation-duration: 30s;
+}
+.movingHeader .group .row:hover {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+
+.movingHeader .group .row span {
+  font-family: 'Yatra One', cursive;
+  color: #e49a57;
+  font-size: 100px;
+  /*font-weight: bold;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #f8deae;*/
+}
+
+/*MENU*/
+
+
+#menu li {
+
+    display: flex;
+    float: left;
+    width: 15%;
+    height: 15px;
+    line-height: 20px;
+    font-family: 'Yatra One', cursive;
+    white-space: nowrap;
+
+
+}
+a{
+    color: #598ed9;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Yatra One', cursive;
+    font-size: 20px;
+}
+
+
+/*Contact form*/
+iframe {
+      margin-left: -10px;
+}
+
+.kader {
+      margin: 1rem auto;
+      overflow: hidden;
+      width: 610px;
+      height: 1430px;
+}
