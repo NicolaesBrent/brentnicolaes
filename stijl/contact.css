@@ -105,17 +105,17 @@ form input[type="submit"]:hover {
 
     display: flex;
     margin-bottom: 20px;
+    margin-left: 2%;
     width: 15%;
     height: 15px;
     line-height: 20px;
     white-space: nowrap;
+    text-align: left;
 }
 a{
     color: #d7c87b;
     text-decoration: none;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+    text-align: left;
     font-family: 'Acme', sans-serif;
     font-size: 30px;
 }

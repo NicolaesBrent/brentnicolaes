@@ -2,7 +2,7 @@ html{
     background-color: #85c27a;
 }
 h1{
-    font-size: 200px;
+    font-size: 100px;
     font-family: 'Acme', sans-serif;
     color: #d7c87b;
     text-align: center;
@@ -11,7 +11,6 @@ h1{
 
     display: flex;
     margin-bottom: 20px;
-    text-align: center;
     height: 15px;
     line-height: 20px;
     white-space: nowrap;
@@ -55,6 +54,9 @@ img{
         margin-left: 15px;
     font-size: 30px;
     }
+    h1{
+        font-size: 200px;
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -66,10 +68,6 @@ img{
   column-count: 4;
   column-gap:1%;
     } 
-#menu a{
-        margin-left: 15px;
-    font-size: 20px;
-    }
     
 }
 
@@ -82,10 +80,6 @@ img{
   column-count: 5;
   column-gap:1%;
  }
-#menu a{
-        margin-left: 15px;
-    font-size: 20px;
-    }
   
 }
 
