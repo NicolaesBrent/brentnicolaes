@@ -11,7 +11,7 @@ h1{
 
     display: flex;
     margin-bottom: 20px;
-    width: 15%;
+    text-align: center;
     height: 15px;
     line-height: 20px;
     white-space: nowrap;
@@ -21,9 +21,8 @@ a{
     text-decoration: none;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
     font-family: 'Acme', sans-serif;
-    font-size: 20px;
+    font-size: 30px;
 }
 img{
   display:block;
@@ -43,7 +42,7 @@ img{
   column-gap:1%;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 800px) {
 
 .photo-grid{
   padding:2%;
@@ -51,9 +50,11 @@ img{
   -moz-column-count: 3;
   column-count: 3;
   column-gap:1%;
- 
-  
-} 
+ }
+    #menu a{
+        margin-left: 15px;
+    font-size: 30px;
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -64,9 +65,12 @@ img{
   -moz-column-count: 4;
   column-count: 4;
   column-gap:1%;
- 
-  
-} 
+    } 
+#menu a{
+        margin-left: 15px;
+    font-size: 20px;
+    }
+    
 }
 
 @media screen and (min-width: 1800px) {
@@ -77,9 +81,11 @@ img{
   -moz-column-count: 5;
   column-count: 5;
   column-gap:1%;
- 
-  
-}
+ }
+#menu a{
+        margin-left: 15px;
+    font-size: 20px;
+    }
   
 }
 
