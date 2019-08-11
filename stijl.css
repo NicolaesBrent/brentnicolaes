@@ -5,7 +5,7 @@ h1{
     font-family: 'Acme', sans-serif;
     color: white;
     margin-top: 10%;
-    font-size: 200px;
+    font-size: 100px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -230,6 +230,9 @@ h1{
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
 /*MENU*/
+#menu{
+    margin-top: 10%;
+}
 #menu li {
 
     display: flex;
@@ -246,6 +249,18 @@ a{
     margin-right: auto;
     text-align: center;
     font-family: 'Acme', sans-serif;
-    font-size: 20px;
+    font-size: 30px;
 }
 
+@media screen and (min-width: 600px) {
+    a{font-size: 30px;}
+    h1{font-size: 150px}
+}
+
+@media screen and (min-width: 1000px) {
+    
+    h1{
+        font-size: 250px;
+        margin-top: 2%;
+    }
+}
