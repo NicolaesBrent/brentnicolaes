@@ -94,6 +94,7 @@ h1{
     -moz-animation:spin 20s linear infinite;
     animation:spin 20s linear infinite;  
     z-index: -1;
+
 }
 .eenC{ 
     position: absolute;
